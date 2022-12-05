@@ -34,7 +34,10 @@ public class Main {
                 System.out.println("Saldo konta wynosi: " + user1.getBalance());
                 break;
             case 3:
-                System.out.println("3");
+                System.out.println("Jaka kwote chcesz wyplacic? ");
+                double nowaWyplata = scan.nextDouble();
+                user1.withdraw(nowaWyplata);
+                System.out.println("Saldo konta wynosi: " + user1.getBalance());
                 break;
             case 4:
                 System.out.println("4");
