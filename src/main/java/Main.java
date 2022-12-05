@@ -1,5 +1,3 @@
-package org.example;
-
 import java.util.Scanner;
 
 public class Main {
@@ -18,9 +16,9 @@ public class Main {
         int pesel = scan.nextInt();
 
 
-        System.out.println("Menu \n 1. Informacje o koncie \n 2. Wplata pieniedzy \n 3. Wyplata pieniedzy \n 4. Wyjscie ";
-        );
+        User user1 = new User(name, lastName, pesel);
 
+        System.out.println("Menu \n 1. Informacje o koncie \n 2. Wplata pieniedzy \n 3. Wyplata pieniedzy \n 4. Wyjscie ");
 
 
 
